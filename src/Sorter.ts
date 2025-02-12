@@ -1,9 +1,8 @@
-/** Bubble Sort Algorythm
-Is the element on the left greater than the one on the right ?
-If so swap them
-Implementation note : use a double for-loop to increase speed
-*/
-
+/** Bubble Sort Algorithm
+ * Is the element on the left greater than the one on the right ?
+ * If so swap them
+ * Implementation detail: use a double for-loop to increase speed
+ */
 export abstract class Sorter {
   abstract length: number
   abstract compare(leftIndex: number, rightIndex: number): boolean

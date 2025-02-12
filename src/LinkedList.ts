@@ -2,7 +2,7 @@ import { Sorter } from './Sorter'
 
 class Node {
   next: Node | null = null
-  constructor(public data: number) {}
+  constructor(public data: number) { }
 }
 
 export class LinkedList extends Sorter {
@@ -73,7 +73,7 @@ export class LinkedList extends Sorter {
     }
     let node: Node | null = this.head
     while (node) {
-      console.log(node.data)
+      globalThis.console.log(node.data)
       node = node.next
     }
   }

@@ -10,7 +10,7 @@ export class CharactersCollection extends Sorter {
   }
 
   compare(leftIndex: number, rightIndex: number): boolean {
-    // If true, we need to swap the numbers / letters
+    // If true, we need to swap the letters
     return (
       this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase()
     )

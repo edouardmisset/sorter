@@ -10,7 +10,7 @@ export class NumbersCollection extends Sorter {
   }
 
   compare(leftIndex: number, rightIndex: number): boolean {
-    // If true, we need to swap the numbers / letters
+    // If true, we need to swap the numbers
     return this.data[leftIndex] > this.data[rightIndex]
   }
 
